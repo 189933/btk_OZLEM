@@ -1,0 +1,141 @@
+a {
+    text-decoration: none;
+}
+
+.top-bar {
+    background-color: #0152A8;
+    color: #ffffff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.top-bar a {
+    color: #ffffff;
+}
+
+.top-bar .icon {
+    display: inline-block;
+    background-color: #095FBA;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.top-bar .icon.icon-phone {
+    background-image: url("../img/icon/phone.svg");
+}
+
+.top-bar .icon.icon-mail {
+    background-image: url("../img/icon/mail.svg");
+}
+
+.btn-main-green {
+    background-color: #0FE3AF;
+    /* padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    padding-right: 36px; */
+
+    /* padding: 16px 36px 16px 36px; */
+
+    padding: 16px 36px;
+    text-decoration: none;
+}
+.btn-main-purple {
+    background-color: #7127c6;
+    /* padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    padding-right: 36px; */
+
+    /* padding: 16px 36px 16px 36px; */
+
+    padding: 16px 36px;
+    text-decoration: none;
+}
+
+.service-card {
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 45px 30px;
+}
+
+.service-card-img {
+    width: 54px;
+    height: 54px;
+}
+
+.service-card-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #1C1C1C;
+}
+
+.service-card-desc {
+    color: #545454;
+    font-size: 0.95rem;
+}
+
+.service-card-link {
+    display: flex;
+    align-items: center;
+    color: #363636;
+}
+
+.service-card-link::after {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/icon/plus.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}
+
+.section-service-title {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 1px solid;
+    top: 2px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: all 200ms;
+}
+
+.section-service-title:hover {
+    background-color: #CECECE;
+    padding: 5px;
+
+}
+
+.call-center {
+    background-image: url("../img/call-center-bg.png");
+    padding: 50px 0;
+
+}
+
+.call-center-card {
+    background-color: #ffffff;
+    padding: 55px;
+}
+
+.call-center-card-icon {
+    width: 60px;
+    border: solid #0FE3AF;
+
+
+}
+
+.call-center-icon .card-icon-1 {
+    display: inline;
+}
+
